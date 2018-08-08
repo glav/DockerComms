@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerComms-Web", "DockerCo
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7699B064-4929-439F-BC78-F54AC177B6F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerComms-api", "DockerComms-api\DockerComms-api.csproj", "{63DDA93E-71C1-40F2-AC9B-A0B2DD432904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7699B064-4929-439F-BC78-F54AC177B6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7699B064-4929-439F-BC78-F54AC177B6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7699B064-4929-439F-BC78-F54AC177B6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DDA93E-71C1-40F2-AC9B-A0B2DD432904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DDA93E-71C1-40F2-AC9B-A0B2DD432904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DDA93E-71C1-40F2-AC9B-A0B2DD432904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DDA93E-71C1-40F2-AC9B-A0B2DD432904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

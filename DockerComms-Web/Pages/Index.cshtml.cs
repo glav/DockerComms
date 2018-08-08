@@ -9,9 +9,13 @@ namespace DockerComms_Web.Pages
 {
     public class IndexModel : PageModel
     {
-        public void OnGet()
-        {
+        private static Proxy _proxy = new Proxy();
 
+        public string Message { get; private set; }
+        public async Task OnGetAsync()
+        {
+            var result = await _proxy.MakeApiCallAsync();
+            Message = result;
         }
     }
 }

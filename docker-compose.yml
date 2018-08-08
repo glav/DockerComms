@@ -1,8 +1,14 @@
 version: '3.4'
 
 services:
-  dockercomms-web:
+  webcontainer:
     image: ${DOCKER_REGISTRY}dockercommsweb
     build:
-      context: .
-      dockerfile: DockerComms-Web/Dockerfile
+      context: ./DockerComms-Web
+      dockerfile: Dockerfile
+
+  apicontainer:
+    image: ${DOCKER_REGISTRY}dockercommsapi
+    build:
+      context: ./DockerComms-api
+      dockerfile: Dockerfile
